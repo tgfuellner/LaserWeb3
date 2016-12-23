@@ -1,0 +1,10 @@
+Update:
+ git fetch upstream
+ git merge upstream/master
+
+Run:
+ npm install
+ node server.js
+
+
+

@@ -1,4 +1,4 @@
-# LaserWeb
+# LaserWeb Fork fro my local configuration
 
 Check the LaserWeb/CNCWeb Google+ community (https://plus.google.com/u/0/communities/115879488566665599508) for updates on the progress of the newest iteration of LaserWeb.
 
