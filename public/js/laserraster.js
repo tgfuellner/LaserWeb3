@@ -279,6 +279,9 @@ Rasterizer.prototype.rasterRow = function(y) {
             this.moveCount++;
 
             //console.log('From: ' + this.lastPosx + ', ' + lastPosy + '  - To: ' + posx + ', ' + posy + ' at ' + lastIntensity + '%');
+            while (posx.slice(-1) === '0') {
+              posx = posx.substr(0, posx.length - 1);
+            }
             if (lastIntensity > 0.05) {
               if (!isLaserOn) {
                 if (laseron) {
